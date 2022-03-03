@@ -46,6 +46,14 @@ namespace class_x_1
             this.fabric = fabric;
         }
 
+        public Ball(int size, string color, string type, string fabric)
+        {
+            this.size = size;
+            this.color = color;
+            this.type = type;
+            this.fabric = fabric;
+        }
+
     }
 
 }
